@@ -59,4 +59,3 @@ export function deleteCourse(course) {
     return courseApi.deleteCourse(course.id);
   };
 }
-
