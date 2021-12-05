@@ -2,6 +2,7 @@
   "name": "react-redux-api",
   "description": "React and Redux API",
   "scripts": {
+    "homepage": "https://react-redux--api.herokuapp.com/",
     "start": "run-p start:dev start:api",
     "start:dev": "webpack server --config webpack.config.dev.js --port 3000",
     "prestart:api": "node tools/createMockDb.js",
